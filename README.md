@@ -2,18 +2,21 @@
 
 ## Overview
 
-For this analysis, the Amazone reviews for books were imported and analyzed to determine how much paid reviews affected the useful reviews.  To do this, the data was imported into a dataframe on Google Colab using PySpark to manage the large amount of records. The dataset was whittled down to only reviews that had 20 or more votes that it was a useful review.  From there, we looked at how many of those were from paid/vine reviewers.
+For this analysis, the Amazon reviews for books were imported and analyzed to determine if paid/vine reviews were affecting the overall rating with a lot of 5-star reviews.  To do this, the data was imported into a dataframe on Google Colab using PySpark to manage the large amount of records. The dataset was first whittled down to only reviews that had 20 or more votes that it was a useful review.  From there, we looked at how many of the 5-star reviews were from paid/vine reviewers.  
 
 ## Results
 
 Below are observations we made from our querying:
 
-* The original dataset contained over 3 million reviews.  Only 2 of these reviews were vine reviews:
+* The original dataset contained over 3 million reviews.  Only 2 of these reviews were vine reviews and 5 were unclassified:
 
-![image_of_vine_vs_non-vine](images/percent_by_vine_type.PNG)
+![image_of_vine_vs_non-vine](images/imported_table_counts.PNG)
 
 
-* 
+*  We wanted to look at only useful reviews so we whittled the list down to only those that had 20-or-more votes that it was useful:
+
+
+
 *     The breakdown of 
 
 
